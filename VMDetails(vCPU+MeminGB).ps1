@@ -1,0 +1,1 @@
+﻿foreach($vm in Get-VM) { $vmDetail=Get-VMProcessor $vm.Name; $memInGB=$vm.MemoryAssigned/1024/1024/1024; Write-Host -NoNewline $vm.Name, $memInGB, $vmDetail.Count; Write-Host }

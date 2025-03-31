@@ -1,0 +1,16 @@
+<R4-SMBSRV-01>
+    <VMList-01>
+        <VM-01>
+            <Name-01>SAM</Name-01>
+        </VM-01>   
+    </VMList-01>
+    <Exportpath-01>Hello\hi</Exportpath-01>
+</R4-SMBSRV-01>
+<R4-SMBSRV-02>
+    <VMList-02>
+        <VM-02>
+            <Name-02>RON</Name-02>
+        </VM-02>   
+    </VMList-02>
+    <Exportpath-02>path\hi</Exportpath-02>
+</R4-SMBSRV-02>

@@ -13,7 +13,7 @@ $START_TIMESTAMP = "2024-08-01" # Start of the range
 $END_TIMESTAMP = "2024-11-01"   # End of the range
 
 # Retrieve the stored credentials
-$credential = Get-AutomationPSCredential -Name 'aiplt-iac-dev-sp'
+$credential = Get-AutomationPSCredential -Name ''
 
 # Authenticate with Azure using the service principal
 az login --service-principal -u $credential.UserName -p $credential.GetNetworkCredential().Password --tenant $TENANTID
